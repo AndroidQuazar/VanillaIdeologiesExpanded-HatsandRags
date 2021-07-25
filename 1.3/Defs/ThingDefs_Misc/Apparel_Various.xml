@@ -2,7 +2,7 @@
 <Defs>
 
   <ThingDef ParentName="ApparelMakeableBase">
-    <defName>Apparel_Beads</defName>
+    <defName>VIEHAR_Apparel_Beads</defName>
     <label>beads</label>
     <description>Large beads made of any variety of material used to signify devotion to one's beliefs.</description>
     <graphicData>
