@@ -10,7 +10,7 @@
             <li>Neck</li>
           </bodyPartGroupsMatchAny>
           <requiredDefs>
-            <li>Apparel_Beads</li>
+            <li>VIEHAR_Apparel_Beads</li>
           </requiredDefs>
         </requirement>
       </li>
@@ -27,6 +27,23 @@
           </bodyPartGroupsMatchAny>
           <requiredDefs>
             <li>VIEHAR_Apparel_Beads</li>
+          </requiredDefs>
+        </requirement>
+      </li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/PreceptDef[defName="IdeoRole_Moralist"]/roleApparelRequirements</xpath>
+    <value>
+      <li>
+	    <anyMemeRequired><li>Structure_OriginChristian</li></anyMemeRequired>
+        <requirement>
+          <bodyPartGroupsMatchAny>
+            <li>UpperHead</li>
+          </bodyPartGroupsMatchAny>
+          <requiredDefs>
+            <li>VIEHAR_Apparel_BishopHat</li>
           </requiredDefs>
         </requirement>
       </li>
