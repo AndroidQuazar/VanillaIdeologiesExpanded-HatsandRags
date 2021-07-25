@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/PreceptDef[@Name="PreceptRoleMultiBase"]/roleApparelRequirements</xpath>
+    <value>
+      <li>
+        <requirement>
+          <bodyPartGroupsMatchAny>
+            <li>Neck</li>
+          </bodyPartGroupsMatchAny>
+          <requiredDefs>
+            <li>Apparel_Beads</li>
+          </requiredDefs>
+        </requirement>
+      </li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/PreceptDef[defName="IdeoRole_Moralist"]/roleApparelRequirements</xpath>
+    <value>
+      <li>
+        <requirement>
+          <bodyPartGroupsMatchAny>
+            <li>Neck</li>
+          </bodyPartGroupsMatchAny>
+          <requiredDefs>
+            <li>Apparel_Beads</li>
+          </requiredDefs>
+        </requirement>
+      </li>
+    </value>
+  </Operation>
+
+</Patch>
