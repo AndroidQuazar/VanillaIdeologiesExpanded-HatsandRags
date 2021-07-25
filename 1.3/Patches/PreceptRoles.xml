@@ -80,6 +80,17 @@
           </requiredDefs>
         </requirement>
       </li>
+      <li>
+	    <anyMemeRequired><li>HighLife</li></anyMemeRequired>
+        <requirement>
+          <bodyPartGroupsMatchAny>
+            <li>FullHead</li>
+          </bodyPartGroupsMatchAny>
+          <requiredDefs>
+            <li>VIEHAR_Apparel_HorseMask</li>
+          </requiredDefs>
+        </requirement>
+      </li>
     </value>
   </Operation>
   
@@ -173,6 +184,17 @@
           </requiredDefs>
         </requirement>
       </li>
+      <li>
+	    <anyMemeRequired><li>HighLife</li></anyMemeRequired>
+        <requirement>
+          <bodyPartGroupsMatchAny>
+            <li>FullHead</li>
+          </bodyPartGroupsMatchAny>
+          <requiredDefs>
+            <li>VIEHAR_Apparel_HorseMask</li>
+          </requiredDefs>
+        </requirement>
+      </li>
     </value>
   </Operation>
   
@@ -217,6 +239,17 @@
           </bodyPartGroupsMatchAny>
           <requiredDefs>
             <li>VIEHAR_Apparel_Headscarf</li>
+          </requiredDefs>
+        </requirement>
+      </li>
+      <li>
+	    <anyMemeRequired><li>HighLife</li></anyMemeRequired>
+        <requirement>
+          <bodyPartGroupsMatchAny>
+            <li>FullHead</li>
+          </bodyPartGroupsMatchAny>
+          <requiredDefs>
+            <li>VIEHAR_Apparel_HorseMask</li>
           </requiredDefs>
         </requirement>
       </li>
