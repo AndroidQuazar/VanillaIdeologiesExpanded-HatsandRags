@@ -295,6 +295,19 @@
           </requiredDefs>
         </requirement>
       </li>
+      <li>
+        <requirement>
+          <bodyPartGroupsMatchAny>
+            <li>Torso</li>
+            <li>Shoulders</li>
+            <li>Arms</li>
+            <li>Legs</li>
+          </bodyPartGroupsMatchAny>
+          <requiredDefs>
+            <li>VIEHAR_Apparel_Rags</li>
+          </requiredDefs>
+        </requirement>
+      </li>
     </value>
   </Operation>
   
