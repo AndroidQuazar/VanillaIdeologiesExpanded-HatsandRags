@@ -106,6 +106,16 @@
           </requiredDefs>
         </requirement>
       </li>
+      <li>
+        <requirement>
+          <bodyPartGroupsMatchAny>
+            <li>UpperHead</li>
+          </bodyPartGroupsMatchAny>
+          <requiredDefs>
+            <li>VIEHAR_Apparel_Skullcap</li>
+          </requiredDefs>
+        </requirement>
+      </li>
     </value>
   </Operation>
   
@@ -222,6 +232,16 @@
           </bodyPartGroupsMatchAny>
           <requiredDefs>
             <li>VIEHAR_Apparel_MilitaryCap</li>
+          </requiredDefs>
+        </requirement>
+      </li>
+      <li>
+        <requirement>
+          <bodyPartGroupsMatchAny>
+            <li>UpperHead</li>
+          </bodyPartGroupsMatchAny>
+          <requiredDefs>
+            <li>VIEHAR_Apparel_Skullcap</li>
           </requiredDefs>
         </requirement>
       </li>
