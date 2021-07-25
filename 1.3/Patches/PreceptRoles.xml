@@ -39,6 +39,17 @@
           </requiredDefs>
         </requirement>
       </li>
+      <li>
+	    <allowedFactionCategoryTags><li>Tribal</li></allowedFactionCategoryTags>
+        <requirement>
+          <bodyPartGroupsMatchAny>
+            <li>UpperHead</li>
+          </bodyPartGroupsMatchAny>
+          <requiredDefs>
+            <li>VIEHAR_Apparel_DeerSkull</li>
+          </requiredDefs>
+        </requirement>
+      </li>
     </value>
   </Operation>
   
@@ -88,6 +99,34 @@
           </bodyPartGroupsMatchAny>
           <requiredDefs>
             <li>VIEHAR_Apparel_CommisarHat</li>
+          </requiredDefs>
+        </requirement>
+      </li>
+      <li>
+	    <allowedFactionCategoryTags><li>Tribal</li></allowedFactionCategoryTags>
+        <requirement>
+          <bodyPartGroupsMatchAny>
+            <li>UpperHead</li>
+          </bodyPartGroupsMatchAny>
+          <requiredDefs>
+            <li>VIEHAR_Apparel_DeerSkull</li>
+          </requiredDefs>
+        </requirement>
+      </li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/PreceptDef[defName="IdeoRole_Leader"]/roleApparelRequirements</xpath>
+    <value>
+      <li>
+	    <allowedFactionCategoryTags><li>Tribal</li></allowedFactionCategoryTags>
+        <requirement>
+          <bodyPartGroupsMatchAny>
+            <li>UpperHead</li>
+          </bodyPartGroupsMatchAny>
+          <requiredDefs>
+            <li>VIEHAR_Apparel_DeerSkull</li>
           </requiredDefs>
         </requirement>
       </li>
