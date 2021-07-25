@@ -21,7 +21,7 @@
     </thingCategories>
     <statBases>
       <MaxHitPoints>160</MaxHitPoints>
-      <WorkToMake>6000</WorkToMake>
+      <WorkToMake>2600</WorkToMake>
       <Mass>0.5</Mass>
       <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
@@ -93,6 +93,51 @@
       </layers>
       <defaultOutfitTags>
         <li>Worker</li>
+      </defaultOutfitTags>
+	  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+	  <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+  </ThingDef>
+  
+  <ThingDef ParentName="HatMakeableBase">
+    <defName>VIEHAR_Apparel_BrimlessHat</defName>
+    <label>brimless hat</label>
+    <description>A small, plain hat meant to rest gently on one’s head. Those who wear it often claim it radiates a certain angelic overtone.</description>
+    <graphicData>
+      <texPath>Things/Apparel/BrimlessHat/BrimlessHat</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.8</drawSize>
+    </graphicData>
+    <costStuffCount>25</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>1500</WorkToMake>
+      <Mass>0.1</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>0.8</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <SuppressionPower>0.1</SuppressionPower>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/BrimlessHat/BrimlessHat</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
       </defaultOutfitTags>
 	  <countsAsClothingForNudity>false</countsAsClothingForNudity>
 	  <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
