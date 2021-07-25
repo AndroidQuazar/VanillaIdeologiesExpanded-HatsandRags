@@ -14,6 +14,16 @@
           </requiredDefs>
         </requirement>
       </li>
+      <li>
+        <requirement>
+          <bodyPartGroupsMatchAny>
+            <li>UpperHead</li>
+          </bodyPartGroupsMatchAny>
+          <requiredDefs>
+            <li>VIEHAR_Apparel_BrimlessHat</li>
+          </requiredDefs>
+        </requirement>
+      </li>
     </value>
   </Operation>
   
@@ -30,12 +40,6 @@
           </requiredDefs>
         </requirement>
       </li>
-    </value>
-  </Operation>
-  
-  <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/PreceptDef[defName="IdeoRole_Moralist"]/roleApparelRequirements</xpath>
-    <value>
       <li>
 	    <anyMemeRequired><li>Structure_OriginChristian</li></anyMemeRequired>
         <requirement>
@@ -44,6 +48,16 @@
           </bodyPartGroupsMatchAny>
           <requiredDefs>
             <li>VIEHAR_Apparel_BishopHat</li>
+          </requiredDefs>
+        </requirement>
+      </li>
+      <li>
+        <requirement>
+          <bodyPartGroupsMatchAny>
+            <li>UpperHead</li>
+          </bodyPartGroupsMatchAny>
+          <requiredDefs>
+            <li>VIEHAR_Apparel_BrimlessHat</li>
           </requiredDefs>
         </requirement>
       </li>
