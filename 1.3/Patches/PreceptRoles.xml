@@ -91,6 +91,21 @@
           </requiredDefs>
         </requirement>
       </li>
+      <li>
+	    <anyMemeRequired>
+		    <li>Raider</li>
+			<li>Collectivist</li>
+			<li>Supremacist</li>
+		</anyMemeRequired>
+        <requirement>
+          <bodyPartGroupsMatchAny>
+            <li>UpperHead</li>
+          </bodyPartGroupsMatchAny>
+          <requiredDefs>
+            <li>VIEHAR_Apparel_MilitaryCap</li>
+          </requiredDefs>
+        </requirement>
+      </li>
     </value>
   </Operation>
   
@@ -192,6 +207,21 @@
           </bodyPartGroupsMatchAny>
           <requiredDefs>
             <li>VIEHAR_Apparel_HorseMask</li>
+          </requiredDefs>
+        </requirement>
+      </li>
+      <li>
+	    <anyMemeRequired>
+		    <li>Raider</li>
+			<li>Collectivist</li>
+			<li>Supremacist</li>
+		</anyMemeRequired>
+        <requirement>
+          <bodyPartGroupsMatchAny>
+            <li>UpperHead</li>
+          </bodyPartGroupsMatchAny>
+          <requiredDefs>
+            <li>VIEHAR_Apparel_MilitaryCap</li>
           </requiredDefs>
         </requirement>
       </li>
