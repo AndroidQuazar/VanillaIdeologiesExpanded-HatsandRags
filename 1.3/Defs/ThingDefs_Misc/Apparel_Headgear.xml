@@ -124,9 +124,6 @@
       <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>0.8</EquipDelay>
     </statBases>
-    <equippedStatOffsets>
-      <SuppressionPower>0.1</SuppressionPower>
-    </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
         <li>UpperHead</li>
