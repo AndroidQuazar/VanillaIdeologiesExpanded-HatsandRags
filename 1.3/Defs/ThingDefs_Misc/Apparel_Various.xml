@@ -42,6 +42,7 @@
       <hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
       <hatRenderedAboveBody>true</hatRenderedAboveBody>
       <hatRenderedBehindHead>true</hatRenderedBehindHead>
+	  <countsAsClothingForNudity>false</countsAsClothingForNudity>
       <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
     </apparel>
@@ -57,6 +58,46 @@
       </recipeUsers>
       <unfinishedThingDef>UnfinishedSculpture</unfinishedThingDef>
     </recipeMaker>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+  </ThingDef>
+  
+  <ThingDef ParentName="HatMakeableBase">
+    <defName>VIEHAR_Apparel_BishopHat</defName>
+    <label>bishop hat</label>
+    <description>A tall, regal ceremonial headdress meant to adorn the head of leaders of Christian faith.</description>
+    <techLevel>Neolithic</techLevel>
+    <graphicData>
+      <texPath>Things/Apparel/BishopHat/BishopHat</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <costStuffCount>20</costStuffCount>
+    <statBases>
+      <WorkToMake>1400</WorkToMake>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Mass>0.08</Mass>
+      <StuffEffectMultiplierArmor>0.25</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/BishopHat/BishopHat</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+	  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+	  <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+    </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
   </ThingDef>
   
