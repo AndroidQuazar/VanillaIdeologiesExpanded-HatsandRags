@@ -329,14 +329,14 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.8</drawSize>
     </graphicData>
-    <costStuffCount>25</costStuffCount>
+    <costStuffCount>35</costStuffCount>
     <stuffCategories>
       <li>Fabric</li>
       <li>Leathery</li>
     </stuffCategories>
     <statBases>
       <MaxHitPoints>80</MaxHitPoints>
-      <WorkToMake>1400</WorkToMake>
+      <WorkToMake>1600</WorkToMake>
       <Mass>0.1</Mass>
       <StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
@@ -348,6 +348,47 @@
         <li>UpperHead</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Apparel/Headscarf/Headscarf</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+	  <countsAsClothingForNudity>false</countsAsClothingForNudity>
+	  <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+      <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+  </ThingDef>
+  
+  <ThingDef ParentName="HatMakeableBase">
+    <defName>VIEHAR_Apparel_HorseMask</defName>
+    <label>horse mask</label>
+    <description>A jovial hat that mimics the appearance of an equestrian, party animals far and wide know it to be an epitome of comical relief.</description>
+    <graphicData>
+      <texPath>Things/Apparel/HorseMask/HorseMask</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.8</drawSize>
+    </graphicData>
+    <costStuffCount>40</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>2000</WorkToMake>
+      <Mass>0.3</Mass>
+      <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>0.8</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Apparel/HorseMask/HorseMask</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
