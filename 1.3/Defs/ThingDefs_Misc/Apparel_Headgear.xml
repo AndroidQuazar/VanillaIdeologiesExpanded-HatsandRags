@@ -317,6 +317,11 @@
 	  <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
     </apparel>
+    <recipeMaker>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+    </recipeMaker>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
   </ThingDef>
   
