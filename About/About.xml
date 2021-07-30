@@ -7,7 +7,7 @@
 		<li>1.3</li>
 	</supportedVersions>
 	<packageId>VanillaExpanded.VIEHAR</packageId>
-	<description>Cool description!</description>
+	<description>This mod introduces many new headgear types and one new outfit type for your ideological pawns. No longer you will be limited by the selected few new headwraps and burkas for your Role generation - your leaders will now be able to wear amazing new headgear such as Horse mask or fez, while moralists will adorn themselves in rags, similar to those of typical monks.</description>
         <modDependencies>
 		<li>
 			<packageId>Ludeon.RimWorld.Ideology</packageId>
