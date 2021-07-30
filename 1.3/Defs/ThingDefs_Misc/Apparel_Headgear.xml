@@ -16,9 +16,6 @@
       <li>Stony</li>
 	  <li>Metallic</li>
     </stuffCategories>
-    <thingCategories>
-      <li>Apparel</li>
-    </thingCategories>
     <statBases>
       <MaxHitPoints>160</MaxHitPoints>
       <WorkToMake>2600</WorkToMake>
@@ -504,9 +501,6 @@
       <li>Woody</li>
 	  <li>Metallic</li>
     </stuffCategories>
-    <thingCategories>
-      <li>Apparel</li>
-    </thingCategories>
     <statBases>
       <MaxHitPoints>160</MaxHitPoints>
       <WorkToMake>3200</WorkToMake>
