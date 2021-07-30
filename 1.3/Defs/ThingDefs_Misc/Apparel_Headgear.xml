@@ -328,7 +328,7 @@
   <ThingDef ParentName="HatMakeableBase">
     <defName>VIEHAR_Apparel_Headscarf</defName>
     <label>headscarf</label>
-    <description>A warm, floppy hat which covers one's ears, oft worn by those belonging to alpinian tribes.</description>
+    <description>A warm, floppy hat which covers one's ears, often worn by those belonging to alpinian tribes.</description>
     <graphicData>
       <texPath>Things/Apparel/Headscarf/Headscarf</texPath>
       <graphicClass>Graphic_Single</graphicClass>
