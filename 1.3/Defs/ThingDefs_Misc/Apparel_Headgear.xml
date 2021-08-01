@@ -40,7 +40,7 @@
       <hatRenderedAboveBody>true</hatRenderedAboveBody>
       <hatRenderedBehindHead>true</hatRenderedBehindHead>
 	  <countsAsClothingForNudity>false</countsAsClothingForNudity>
-      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+      <canBeDesiredForIdeo>true</canBeDesiredForIdeo>
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
     </apparel>
     <recipeMaker>
@@ -134,7 +134,7 @@
         <li>Soldier</li>
       </defaultOutfitTags>
 	  <countsAsClothingForNudity>false</countsAsClothingForNudity>
-	  <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+      <canBeDesiredForIdeo>true</canBeDesiredForIdeo>
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
@@ -269,7 +269,7 @@
         <li>Worker</li>
       </defaultOutfitTags>
 	  <countsAsClothingForNudity>false</countsAsClothingForNudity>
-	  <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+      <canBeDesiredForIdeo>true</canBeDesiredForIdeo>
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
@@ -311,7 +311,7 @@
 		<li>Soldier</li>
       </defaultOutfitTags>
 	  <countsAsClothingForNudity>false</countsAsClothingForNudity>
-	  <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+      <canBeDesiredForIdeo>true</canBeDesiredForIdeo>
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
     </apparel>
     <recipeMaker>
@@ -357,7 +357,7 @@
         <li>Worker</li>
       </defaultOutfitTags>
 	  <countsAsClothingForNudity>false</countsAsClothingForNudity>
-	  <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+      <canBeDesiredForIdeo>true</canBeDesiredForIdeo>
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
@@ -440,7 +440,7 @@
         <li>Soldier</li>
       </defaultOutfitTags>
 	  <countsAsClothingForNudity>false</countsAsClothingForNudity>
-	  <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+      <canBeDesiredForIdeo>true</canBeDesiredForIdeo>
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
@@ -481,7 +481,7 @@
         <li>Worker</li>
       </defaultOutfitTags>
 	  <countsAsClothingForNudity>false</countsAsClothingForNudity>
-	  <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+      <canBeDesiredForIdeo>true</canBeDesiredForIdeo>
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
